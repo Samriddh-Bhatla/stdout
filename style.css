@@ -1,0 +1,26 @@
+﻿body {
+    background-color: dimgray;
+}
+
+.header, #linkedinbutton {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: chartreuse;
+}
+
+#linkedinbutton {
+    border: 2px solid black;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
